@@ -13,7 +13,6 @@ PAD_THRESHOLD = 500
 
 # ------------------------------------------------ #
 
-
 def process_file(filepath: Path):
     """Preprocess a single C-array file."""
 
@@ -83,12 +82,11 @@ def process_file(filepath: Path):
 
     return True
 
-
 def main():
 
     processed = 0
     skipped = 0
-    folder = Path("data/chat/ICQchat2")
+    folder = Path("data/Email/email1b")
 
     for file in folder.iterdir():
         if file.is_file():
@@ -102,7 +100,6 @@ def main():
     print(f"Processed : {processed}")
     print(f"Skipped   : {skipped}")
     print(f"Total     : {processed + skipped}")
-
 
 if __name__ == "__main__":
     main()
