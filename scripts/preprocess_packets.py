@@ -86,7 +86,7 @@ def main():
 
     processed = 0
     skipped = 0
-    folder = Path("data/Email/email2a")
+    folder = Path("data/File_Transfer/skype_file1")
 
     for file in folder.iterdir():
         if file.is_file():
