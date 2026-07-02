@@ -86,7 +86,7 @@ def main():
 
     processed = 0
     skipped = 0
-    folder = Path("data/File_Transfer/skype_file1")
+    folder = Path("data/File_Transfer/skype_file8")
 
     for file in folder.iterdir():
         if file.is_file():
